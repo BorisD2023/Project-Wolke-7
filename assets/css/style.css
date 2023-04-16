@@ -1,0 +1,286 @@
+@font-face {
+    font-family: machina;
+    src: url("../fonts/NeueMachina-Regular.otf");
+}
+@font-face {
+    font-family: machina-bold;
+    src: url("../fonts/NeueMachina-Ultrabold.otf");
+}
+@font-face {
+    font-family: machina-thin;
+    src: url("../fonts/NeueMachina-Light.otf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: machina;
+    width: 100%;
+}
+
+main{
+    background-color: beige;
+}
+
+/* Menu style */
+
+.menu{
+    background: url("../img/menu\ page.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    text-align: ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+nav{
+    text-align: right;
+    margin-top: 2rem;
+    margin: 3rem;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.menu a{
+    font-size: 3rem;
+    color: #fff;
+    line-height: 4rem;
+}
+
+.menu a:nth-child(1):hover{
+    color: rgb(152, 204, 220);
+}
+
+.menu a:nth-child(2):hover{
+    color: rgb(209, 141, 141);
+}
+
+/* Home Style */
+
+.home1{
+    background: url("../img/menu\ page.png") no-repeat center;
+    background-size: contain;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20rem auto;
+}
+
+h2{
+    color: #fff;
+    font-family: machina-thin, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    word-spacing: 5px;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+
+.img-home{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+.baby{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
+section div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+div p{
+    font-size: 1.6rem;
+    width: 35vw;
+    text-align: center;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.img-home{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home2{
+    background: url("../img/home\ img5.png") no-repeat center;
+    background-size: contain;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20rem;
+}
+
+.home2 h2{
+    line-height: 2.5rem;
+}
+
+footer{
+    
+    padding: 5rem 5rem;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+footer a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* Stories Style */
+
+.stories div p{
+    text-transform: uppercase;
+}
+
+.nav{
+    margin-right: 2rem;
+}
+
+.stories{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 4rem;
+}
+
+.micro{
+    background: url("../img/stories\ img1.png") no-repeat center;
+    background-size: contain;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.milk{
+    background: url("../img/stories\ img2.png") no-repeat center;
+    background-size: contain;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jomo{
+    background: url("../img/stories\ img3.png") no-repeat center;
+    background-size: contain;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bruh{
+    background: url("../img/stories\ img4.png") no-repeat center;
+    background-size: contain;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pabst{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.micro p::first-letter{
+    font-size: 4rem;
+}
+.micro p{
+    font-family: machina-thin,Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    width: 34vw;
+    margin-right: 10rem;
+    line-height: 2rem;
+}
+
+span{
+    color: #febb80;
+}
+
+.milk p{
+    font-family: machina-thin,Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    width: 28vw;
+    margin-left: 21rem;
+    line-height: 2rem;
+    text-align: left;
+}
+
+strong{
+    font-family: machina-bold, Arial, Helvetica, sans-serif;
+}
+
+.jomo p{
+    font-family: machina-thin,Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    width: 27vw;
+    margin-right: 10rem;
+    line-height: 2rem;
+    margin-top: 5rem;
+}
+
+.bruh h1:nth-child(1){
+    font-family: machina-bold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #5c5c5c;
+    margin-left: 10rem;
+    line-height: 0.7rem;
+    margin-top: 6rem;
+}
+
+.bruh h1:nth-child(2){
+    font-family: machina-bold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #f6f6f68b;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+
+.bruh p{
+    color: #9175A5;
+    
+    font-family: machina-thin,Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    width: 52vw;
+    margin-left: 10rem;
+    line-height: 2rem;
+    text-align: left;
+}
